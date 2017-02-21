@@ -1,0 +1,164 @@
+/*
+* @Author: Administrator
+* @Date:   2016-09-18 21:49:00
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-09-27 22:11:31
+*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+body { background:#fff; color:#555; font-size:14px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+td,th,caption { font-size:14px; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+a { color:#555; text-decoration:none; }
+a:hover { text-decoration:underline; }
+img { border:none; }
+ol,ul,li { list-style:none; }
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+table { border-collapse:collapse; }
+html {overflow-y: scroll;} 
+/* css common */
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+/*.clearfix { *zoom:1; }
+/*初始化*/
+
+
+#top{
+	width: 100%;
+	height: 100px;
+}
+#top-left{
+	width:600px;
+	height: 76px;
+	margin:10px 0 0 10px;
+	position: absolute;
+}
+#top-left a{
+	float: left;
+}
+.top{
+	font-size:23px;
+	font-weight:bold;
+	display: block;
+	width:76px;
+	height:76px;
+	float:left;
+	padding-top:20px;
+	padding-left: 20px;
+   
+}
+.top a:hover{
+	text-decoration: none;
+	color:red;
+}
+#top-right{
+	margin-right: 200px;
+	margin-top: 33px;
+	float: right;
+
+}
+
+
+#text1{
+	border-width: 0 0 2px 0;
+	outline:medium;/*去除选中状态黄色边框*/
+	width:300px;
+	height: 30px;
+	line-height: 30px;
+	color:gray;
+}
+#top-right a{
+	background-image:url(../picture/1234.png);
+	background-repeat: no-repeat;
+	text-decoration: none;
+}
+#top-right a:hover {
+	background-image:url(../picture/123456.png);
+	background-repeat: no-repeat;
+	text-decoration: none;
+	cursor: pointer;
+
+}
+#main{
+	width: 1200px;
+	height: 600px;
+    margin: 0 auto;
+
+	background-repeat: no-repeat;
+
+	
+
+}
+.bk{
+	width: 100%;
+	height: 400px;
+	background-image:url(../picture/bk.jpg);
+	background-size: cover;
+}
+.le{
+	display: block;
+	width: 220PX;
+	height: 64PX;
+	line-height: 64px;
+	padding-left: 40px;
+	color: white;
+	font-size: 18px;
+    cursor: pointer;
+}   
+.le a{
+	color: white;
+	display: block;
+	width: 180px;
+	height: 63px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	text-decoration:none;
+}
+.le i{
+	position: block;
+	width: 16px;
+	height: 16px;
+	background-image: url(../picture/22.png);
+	background-repeat: no-repeat;
+	float: right;
+	margin:24px 10px 0 0;
+
+}
+#lead ul{
+	width: 260px;
+	height: 460px;
+	background-color:rgba(0, 0, 0, 0.2);
+}
+.le:hover{
+	background-color:rgba(0, 0, 0, 0.5);
+}
+
+#lead{
+	position: absolute;
+	z-index: 999;
+
+}
+#leader{
+	width: 730px;
+	height: 460px;
+	float: left;
+	margin-left: 260px;
+}
+.led{
+	width: 730px;
+	height: 460px;
+	left:260px;
+	top: 0px;
+	position: absolute;
+	display: none;
+}
+/*.le:hover .led{
+	display: block;
+}
+*/
+	.clear{overflow:hidden; clear:both; width:0px; height:0px; }
+    .imgbox{width:1200px; margin:0 auto; text-align:center; }
+    ul{padding:0px; margin:0px;}
+    .leader{float:left; list-style:none; }
+    ul li.leader{display:block;}
+    .imgnum span{border-radius:10px; font:normal normal bold 12px/15px 微软雅黑; color:#FFF; margin-left:5px; padding:3px 6px 3px 6px;  background-color:#F90; cursor:pointer;}
+    .imgnum span.onselect{background-color:#F00;}
+    .imgnum{text-align:center; float:right; margin:-30px 30px; position:relative;}	
